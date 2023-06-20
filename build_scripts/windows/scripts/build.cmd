@@ -87,9 +87,6 @@ if not exist %WIX_DIR% (
     popd
 )
 
-REM Use only downloaded python and ignore machine state
-set PYTHONHOME=%PYTHON_DIR%
-
 REM ensure Python is available
 if exist %PYTHON_DIR% (
     echo Using existing Python at %PYTHON_DIR%

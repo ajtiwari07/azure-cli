@@ -206,7 +206,7 @@ jobs:
 
 
   - script: |
-      set /p ARCH=$(Platform)
+      set ARCH=$(Platform)
       set /p CLI_VERSION=<$(System.ArtifactsDirectory)/metadata/version
       set
       
